@@ -17,9 +17,10 @@ const fs = require('fs');
 
 const changelog = fs.readFileSync('./CHANGELOG.md');
 const releaseNotes = changelogParser.parse(changelog);
-
-
+const json = releaseNotes.toJSON();
 ```
+
+The changelog parser returns an instance of [ReleaseNotes](https://github.com/release-notes/release-notes-node/lib/models/ReleaseNotes.js).
 
 ---
 
