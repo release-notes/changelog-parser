@@ -2,6 +2,13 @@
 
 [![Subscribe to Release Notes](https://release-notes.com/badges/v1.svg)](https://release-notes.com/@release-notes/changelog-parser)
 
+## About
+
+The changelog parser reads changelog.md files and derivatives and converts them to
+release notes objects with a standardized schema.
+This allows further processing of changelog files and provides an unified access to information
+on version and even atomic modification level.
+
 ## Installation
 
 ```bash
@@ -20,7 +27,7 @@ const releaseNotes = changelogParser.parse(changelog);
 const json = releaseNotes.toJSON();
 ```
 
-The changelog parser returns an instance of [ReleaseNotes](https://github.com/release-notes/release-notes-node/lib/models/ReleaseNotes.js).
+The changelog parser returns an instance of [ReleaseNotes](https://github.com/release-notes/release-notes-node/blob/develop/lib/models/ReleaseNotes.js).
 
 ---
 

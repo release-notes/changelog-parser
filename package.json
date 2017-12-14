@@ -1,7 +1,7 @@
 {
   "name": "@release-notes/changelog-parser",
   "description": "Parse changelog and history markdown files into js objects.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Alrik Zachert <alrik.zachert@gmail.com>",
   "keywords": [
     "release notes",
@@ -23,8 +23,7 @@
     "Alrik Zachert <alrik.zachert@gmail.com>"
   ],
   "dependencies": {
-    "@release-notes/node": "^0.2.0",
-    "marked": "^0.3.7"
+    "@release-notes/node": "^0.2.0"
   },
   "publishConfig": {
     "access": "public"
