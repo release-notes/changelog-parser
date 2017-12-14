@@ -1,0 +1,12 @@
+title: Release notes of changelog-parser
+description: >
+
+
+releases:
+- version: 0.1.0
+  date: 2017-12-14
+  title: First Release
+  description: First experimental approach to parse CHANGELOG.md files for further processing.
+  added:
+  - MIT license.
+  - Introduce experimental changelog parsing approach.
