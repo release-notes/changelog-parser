@@ -1,0 +1,32 @@
+{
+  "name": "@release-notes/changelog-parser",
+  "description": "Parse changelog and history markdown files into js objects.",
+  "version": "0.0.0",
+  "author": "Alrik Zachert <alrik.zachert@gmail.com>",
+  "keywords": [
+    "release notes",
+    "release-notes",
+    "releasenotes",
+    "changelog",
+    "changelog.md",
+    "history.md",
+    "parser"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/release-notes/changelog-parser/issues"
+  },
+  "repository": {
+    "url": "https://github.com/release-notes/changelog-parser"
+  },
+  "contributors": [
+    "Alrik Zachert <alrik.zachert@gmail.com>"
+  ],
+  "dependencies": {
+    "@release-notes/node": "^0.2.0",
+    "marked": "^0.3.7"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
