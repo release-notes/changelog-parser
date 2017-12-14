@@ -1,54 +1,12 @@
-title: Release Notes of the Hub
+title: Release notes of changelog-parser
 description: >
-  Release-notes-hub is a hosting service for "Release Notes" -
-  an easy to use, human readable and machine processable schema for release notes.
+
 
 releases:
-- version: Next
-  added:
-  - Introduce badge and markdown for embedding. (#22)
-  - Add imprint.
-  - Introduce static asset revisioning by appending content hash to filename.
-  - Serve roboto webfont to remove external deps and to optimize performance.
-  - Inline material design svg icons.
-  - Add support for signing up w/o username. (#11)
-  - Add support for managing private auth tokens. (#30)
-  - Add support for signing in via github. (#7)
-  changed:
-  - Rework overall page layout.
-  - Treat username case insensitive. (#11)
-  - Upgrade from node 6 to 8 (latest LTS).
-  - Upgrade code to use async/await instead of callbacks.
-- version: 0.3.0
-  date: 2017-09-29
-  title: MVP - Third Release
-  description: This release introduces a new logo and adds support for broadcasting notifications.
-  added:
-  - Add `/mit-license` page for displaying the applying oss license. (#14)
-  - Redirect the user to the previously requested url after successfull login. (#16)
-  - Setup status page (https://status.release-notes.com)
-  - Add support for subscriptions (subscribe/unsubscribe). (#4)
-  - New origami pigeon logo and introduction of `/credits` page.
-  - Add support for broadcasting release notes update notifications to email subscribers. (#9)
-- version: 0.2.0
-  date: 2017-09-12
-  title: MVP - Second Release
-  description: This release improves form validation and adds support for updating release notes.
-  added:
-  - Add support for publishing a new revision of existing release-notes. (#5)
-  improved:
-  - Added help info on form fields.
-  changed:
-  - Introduce backend form validation. Restrict user and release note names to numbers, letters and dashes.
 - version: 0.1.0
-  date: 2017-09-01
-  title: MVP - First Release
-  description: MVP implementation
+  date: 2017-12-14
+  title: First Release
+  description: First experimental approach to parse CHANGELOG.md files for further processing.
   added:
   - MIT license.
-  - Display most recently updated release notes on home screen.
-  - Introduce accounts & session based auth.
-  - Upload & rendering of release notes.
-  - Styles based on bulma css framework.
-  - Basic express/kermit setup.
-  - Introduce these release notes.
+  - Introduce experimental changelog parsing approach.
