@@ -27,7 +27,7 @@ const releaseNotes = changelogParser.parse(changelog);
 const json = releaseNotes.toJSON();
 ```
 
-The changelog parser returns an instance of [ReleaseNotes](https://github.com/release-notes/release-notes-node/lib/models/ReleaseNotes.js).
+The changelog parser returns an instance of [ReleaseNotes](https://github.com/release-notes/release-notes-node/blob/develop/lib/models/ReleaseNotes.js).
 
 ---
 
