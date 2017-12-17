@@ -23,7 +23,7 @@
     "Alrik Zachert <alrik.zachert@gmail.com>"
   ],
   "dependencies": {
-    "@release-notes/node": "^0.2.0"
+    "@release-notes/node": "^0.3.0"
   },
   "publishConfig": {
     "access": "public"
