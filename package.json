@@ -12,6 +12,7 @@
     "history.md",
     "parser"
   ],
+  "homepage": "https://release-notes.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/release-notes/changelog-parser/issues"
