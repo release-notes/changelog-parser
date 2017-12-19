@@ -7,6 +7,10 @@ description: >
   https://release-notes.com
 
 releases:
+- version: 0.1.2
+  date: 2017-12-19T11:52:43Z
+  added:
+  - Add support for parsing the title of a release. ([#3](https://github.com/release-notes/changelog-parser/issues/3)
 - version: 0.1.1
   date: 2017-12-17T22:02:46Z
   added:
