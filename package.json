@@ -1,6 +1,6 @@
 {
   "name": "@release-notes/changelog-parser",
-  "description": "Parse changelog and history markdown files into js objects.",
+  "description": "Parse CHANGELOG.md, HISTORY.md and derivative markdown files into js objects.",
   "version": "0.1.2",
   "author": "Alrik Zachert <alrik.zachert@gmail.com>",
   "keywords": [
