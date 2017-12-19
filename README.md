@@ -1,10 +1,12 @@
 # Release Notes Changelog Parser
 
 [![Subscribe to Release Notes](https://release-notes.com/badges/v1.svg)](https://release-notes.com/@release-notes/changelog-parser)
+[![NPM Package](https://img.shields.io/npm/v/@release-notes/changelog-parser.svg)](https://www.npmjs.com/package/@release-notes/changelog-parser)
+[![MIT license](https://img.shields.io/github/license/release-notes/changelog-parser.svg)](LICENSE)
 
 ## About
 
-The changelog parser reads changelog.md files and derivatives and converts them to
+The changelog parser reads CHANGELOG.md files and derivatives and converts them to
 release notes objects with a standardized schema.
 This allows further processing of changelog files and provides an unified access to information
 on version and even atomic modification level.
